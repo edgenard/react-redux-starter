@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "prebuild": "rm -rf dist && mkdir dist && cp -a static/. dist/",
-    "start": "webpack-dev-server -d"
+    "start": "webpack-dev-server -d",
+    "lint" : "standard"
   },
   "engines": {
     "node": "6.2.0"

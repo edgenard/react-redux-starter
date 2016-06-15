@@ -11,5 +11,16 @@ module.exports = {
   },
   devServer: {
     contentBase: 'static/'
+  },
+  module: {
+    preLoaders: [
+      {
+        test: /\.jsx?$/,
+        exclude: /(node_modules|dist)/,
+        loader: 'standard'
+      }
+    ],
+    loaders: [
+    ]
   }
 }
