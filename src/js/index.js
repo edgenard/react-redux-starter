@@ -1,5 +1,5 @@
 import ReactDom from 'react-dom'
-import * as React from 'react'
+import React from 'react'
 import {App} from './test.js'
 
 ReactDom.render(
