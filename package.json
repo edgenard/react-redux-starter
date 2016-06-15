@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack",
-    "prestart": "rm -rf dist && mkdir dist"
+    "build": "webpack",
+    "prebuild": "rm -rf dist && mkdir dist && cp -a static/. dist/"
   },
   "engines": {
     "node": "6.2.0"
