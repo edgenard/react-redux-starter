@@ -1,2 +1,2 @@
-console.log('Hello World')
-console.log('Bye')
+import {add} from './test.js'
+console.log(add(3, 4))

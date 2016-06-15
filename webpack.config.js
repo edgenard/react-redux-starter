@@ -21,6 +21,11 @@ module.exports = {
       }
     ],
     loaders: [
+      {
+        test: /\.jsx?$/,
+        exclude: /(node_modules|dist)/,
+        loader: 'babel'
+      }
     ]
   }
 }
