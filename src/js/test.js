@@ -5,3 +5,5 @@ export const App = () => {
     <h1>Hello World!</h1>
   )
 }
+
+export const add = (a,b) => a + b

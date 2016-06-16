@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "karma-start": "karma start",
+    "karma-test": "karma run",
     "build": "webpack",
     "prebuild": "rm -rf dist && mkdir dist && cp -a static/. dist/",
     "start": "webpack-dev-server -d",
