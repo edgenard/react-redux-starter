@@ -1,3 +1,4 @@
+import React from 'react'
 import {assert} from 'chai'
 import {add, App} from '../../src/js/test.js'
 import {shallow} from 'enzyme'
